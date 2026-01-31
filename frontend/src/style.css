@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*outline: 1px solid red !important;*/
+}
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f5f7ff;
+
+    /* Здесь мы перечисляем "пшики".
+       Каждый radial-gradient — это отдельное пятно.
+    */
+    background-image:
+        /* Пятно 1: Слева вверху */
+        radial-gradient(circle at center, rgba(231, 192, 241, 0.6) 0%, transparent 60%),
+        /* Пятно 2: Справа, чуть ниже */
+        radial-gradient(circle at center, rgba(169, 196, 255, 0.6) 0%, transparent 60%),
+        /* Пятно 3: Снова слева, еще ниже */
+        radial-gradient(circle at center, rgba(231, 192, 241, 0.6) 0%, transparent 60%),
+        /* Пятно 4: Справа, внизу */
+        radial-gradient(circle at center, rgba(169, 196, 255, 0.6) 0%, transparent 60%);
+
+    /* Задаем размеры каждого пятна (ширина высота).
+       Можно делать их разными для естественности.
+    */
+    background-size:
+        1000px 1000px,  /* Размер 1 пятна */
+        900px 900px,  /* Размер 2 пятна */
+        1100px 1100px,  /* Размер 3 пятна */
+        1200px 1200px;  /* Размер 4 пятна */
+
+    /* Важно: отключаем повторение */
+    background-repeat: no-repeat;
+
+    /* Самое важное: КООРДИНАТЫ (x y).
+       x: 0 (слева) или 100% (справа) или -10% (за краем).
+       y: отступ сверху в пикселях или процентах.
+    */
+    background-position:
+        -100px 0,    /* 1: Слева вверху */
+        110% 400px,    /* 2: Справа, отступ сверху 400px */
+        -150px 900px,  /* 3: Слева, отступ сверху 900px */
+        110% 1400px;   /* 4: Справа, отступ сверху 1400px */
+
+    /* Чтобы фон не обрезался, если контента мало */
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+html, body {
+    overflow-x: hidden !important;
+}
+html {
+  scroll-behavior: smooth;
+}
