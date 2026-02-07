@@ -11,8 +11,8 @@
           <p>Join thousands of learners discovering smarter ways to learn with AI</p>
         </div>
         <div class="img-block">
-          <a href=""><img src="/googleplay2.svg" alt=""></a>
-          <a href=""><img src="/appstore2.svg" alt=""></a>
+          <a href="#" aria-label="button Google Play"><img src="/googleplay2.svg" alt="Google Play"></a>
+          <a href="#" aria-label="button App Store"><img src="/appstore2.svg" alt="App Store"></a>
         </div>
       </div>
     </div>

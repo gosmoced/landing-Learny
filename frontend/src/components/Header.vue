@@ -23,7 +23,7 @@ const closeMenu = () => {
     <div class="container">
       <div class="logo">
         <img src="/Layer_2.svg" alt="logo">
-        <a href="#"><img src="/Vector.svg" alt="logo" class="logo-text"></a>
+        <a href="#"><img src="/Vector.svg" alt="logo" class="logo-text" aria-label="restart page"></a>
       </div>
       <nav class="navigation">
         <a href="#features">Features</a>
