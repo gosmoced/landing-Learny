@@ -11,10 +11,10 @@
           Choose your perfect learning buddy from our AI avatars. Adaptive, personalized education that evolves with you—whether you're a curious learner or seeking mastery in any subject.
         </p>
         <div class="store-buttons">
-          <a href="">
+          <a href="#">
             <img class="sb-1" src="/googleplay.svg" alt="Google Play">
           </a>
-          <a href="">
+          <a href="#">
             <img class="sb-2" src="/appstore.svg" alt="App Store">
           </a>
         </div>

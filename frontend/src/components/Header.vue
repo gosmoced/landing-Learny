@@ -22,8 +22,8 @@ const closeMenu = () => {
   <header>
     <div class="container">
       <div class="logo">
-        <img src="/Layer_2.svg" alt="">
-        <a href=""><img src="/Vector.svg" alt="" class="logo-text"></a>
+        <img src="/Layer_2.svg" alt="logo">
+        <a href="#"><img src="/Vector.svg" alt="logo" class="logo-text"></a>
       </div>
       <nav class="navigation">
         <a href="#features">Features</a>
