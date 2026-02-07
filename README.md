@@ -18,10 +18,13 @@ This project was built to master **Vue.js 3** and **precise layout implementatio
 
 **My Goal:** Create a site that looks like art and loads instantly.
 
+> **⚠️ Note:** This is a **Frontend-only** project (Static UI).
+> The buttons, forms, and login are for visual demonstration (hover states, UI logic) and are not connected to a real backend.
+
 ### Key Highlights:
-* **Manual Implementation:** I wrote all CSS and adaptability logic manually without heavy UI libraries (like Bootstrap or Tailwind).
+* **Zero External UI Libraries:** I wrote all CSS and adaptability logic manually (no Bootstrap or Tailwind) to keep the bundle size minimal.
 * **Pixel Perfect:** The layout matches the original Figma design grid, spacing, and typography exactly.
-* **Component Architecture:** The UI is broken down into reusable Vue components (Hero, Features, Cards, Footer).
+* **Component Architecture:** The UI is broken down into reusable Vue components (Hero, Features, Cards, Footer) for better maintainability.
 
 ---
 
